@@ -13,7 +13,7 @@ Deploy: [https://guz86.github.io/alfa-task/](https://guz86.github.io/alfa-task/)
 ## Setup and Running
 
 - Use `node 21.x` or higher.
-- Clone this repo: `$ git clone https://github.com/guz86/alfa-task.git`.
+- Clone this repo: `$ git clone https://github.com/gordienkodev/alfa-task.git`.
 - Go to downloaded folder: `$ cd alfa-app`.
 - Install dependencies: `$ npm install`.
 - Start server: `$ npm run dev`.
