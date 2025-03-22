@@ -45,6 +45,7 @@ npm run dev
 - Store - zustand store
 
 ## Screenshots
+![image](https://github.com/user-attachments/assets/67bfd3dc-e619-4168-9b7d-fa9d72c42db3)
 ![image](https://github.com/user-attachments/assets/7d369a0e-ac3e-4e7b-8bc3-15afe2a9a19a)
 ![image](https://github.com/user-attachments/assets/a0476981-0ffc-4a74-ac1a-878c1500e73a)
 ![image](https://github.com/user-attachments/assets/9f9bcd76-c3c2-4a86-968f-ffd06f37af02)
