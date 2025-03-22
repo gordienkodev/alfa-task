@@ -1,10 +1,10 @@
 # SPA
  
-Deploy: [https://guz86.github.io/alfa-task/](https://guz86.github.io/alfa-task/)
+Deploy: [https://gordienkodev.github.io/alfa-task/](https://gordienkodev.github.io/alfa-task/)
 
-- breeds: [https://guz86.github.io/alfa-task/products](https://guz86.github.io/alfa-task/products)
-- one breed: [https://guz86.github.io/alfa-task/products/african](https://guz86.github.io/alfa-task/products/african)
-- add breed: [https://guz86.github.io/alfa-task/create-product](https://guz86.github.io/alfa-task/create-product)
+- breeds: [https://gordienkodev.github.io/alfa-task/products](https://gordienkodev.github.io/alfa-task/products)
+- one breed: [https://gordienkodev.github.io/alfa-task/products/african](https://gordienkodev.github.io/alfa-task/products/african)
+- add breed: [https://gordienkodev.github.io/alfa-task/create-product](https://gordienkodev.github.io/alfa-task/create-product)
 
 ## Author
 
