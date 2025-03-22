@@ -45,7 +45,6 @@ export interface ICartState {
   removeFromCart: (breedName: string) => void;
 }
 
-
 export interface CartButtonProps {
   breedName: string;
 }

@@ -10,7 +10,7 @@ const CreateProductForm: React.FC<CreateProductFormProps> = ({ onSubmit }) => {
   const [name, setName] = useState("");
   const [imageUrl, setImageUrl] = useState("");
   const [errors, setErrors] = useState<{ name?: string; imageUrl?: string }>(
-    {}
+    {},
   );
 
   const isValidImageUrl = (url: string) => /\.(jpg|jpeg|png|gif)$/i.test(url);

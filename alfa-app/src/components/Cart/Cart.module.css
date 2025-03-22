@@ -1,14 +1,14 @@
 .cartButton {
-    background-color: rgb(189, 138, 28);
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    text-decoration: none;
+  background-color: rgb(189, 138, 28);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .cartButton:hover {
-    background-color: rgb(223, 158, 17);
-    color: white;
+  background-color: rgb(223, 158, 17);
+  color: white;
 }

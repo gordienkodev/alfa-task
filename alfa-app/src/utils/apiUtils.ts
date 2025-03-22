@@ -16,11 +16,11 @@ export const fetchDogBreeds = async (): Promise<IBreedListType> => {
 };
 
 export const fetchRandomImageBreed = async (
-  breedName: string
+  breedName: string,
 ): Promise<IBreedImage> => {
   try {
     const response = await axios.get(
-      `${API_URLS.DOGS_API_URL}breed/${breedName}/images/random`
+      `${API_URLS.DOGS_API_URL}breed/${breedName}/images/random`,
     );
     return response.data;
   } catch (error) {

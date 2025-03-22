@@ -5,7 +5,10 @@
   margin: 16px;
   text-align: center;
   position: relative;
-  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s,
+    background-color 0.3s;
 }
 
 .breedCard:hover {

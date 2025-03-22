@@ -18,7 +18,7 @@ const DataLoader: React.FC = () => {
           fetchRandomImageBreed(breed).then((response: IBreedImage) => ({
             breed,
             imageUrl: response.message,
-          }))
+          })),
         );
 
         const imageResults = await Promise.all(breedImageRequests);
@@ -27,7 +27,7 @@ const DataLoader: React.FC = () => {
             acc[breed] = imageUrl;
             return acc;
           },
-          {}
+          {},
         );
 
         setImages(imageMap);

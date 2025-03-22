@@ -36,7 +36,7 @@ const BreedCard: React.FC<IBreedCardProps> = ({ breedName, imageUrl }) => {
           <FaTrash size={28} />
         </div>
       </div>
-      
+
       <CartButton breedName={breedName} />
     </Link>
   );

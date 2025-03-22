@@ -23,10 +23,10 @@ export const useStore = create<IBreedState>((set) => ({
     set((state) => ({
       breeds: state.breeds.filter((breed) => breed !== breedName),
       images: Object.fromEntries(
-        Object.entries(state.images).filter(([key]) => key !== breedName)
+        Object.entries(state.images).filter(([key]) => key !== breedName),
       ),
       likedBreeds: new Set(
-        [...state.likedBreeds].filter((likedBreed) => likedBreed !== breedName)
+        [...state.likedBreeds].filter((likedBreed) => likedBreed !== breedName),
       ),
     })),
   dataLoaded: false,
