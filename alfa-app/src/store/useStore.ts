@@ -1,7 +1,7 @@
 import { create } from "zustand";
-import { BreedState } from "../interfaces";
+import { IBreedState } from "../interfaces";
 
-export const useStore = create<BreedState>((set) => ({
+export const useStore = create<IBreedState>((set) => ({
   breeds: [],
   images: {},
   setBreeds: (breeds) => set({ breeds }),

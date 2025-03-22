@@ -11,6 +11,7 @@ function App() {
     <Router basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<HomePage />} />
+
         <Route path="/products" element={<BreedsPage />} />
         <Route path="/products/:breedName" element={<BreedDetail />} />
         <Route path="/create-product" element={<CreateProductPage />} />

@@ -1,8 +1,8 @@
 import axios from "axios";
 import { API_URLS } from "../constants";
-import { BreedImage, BreedListType } from "../interfaces";
+import { IBreedImage, IBreedListType } from "../interfaces";
 
-export const fetchDogBreeds = async (): Promise<BreedListType> => {
+export const fetchDogBreeds = async (): Promise<IBreedListType> => {
   try {
     const response = await axios.get(API_URLS.DOG_BREEDS_LIST);
     return response.data.message;
@@ -17,7 +17,7 @@ export const fetchDogBreeds = async (): Promise<BreedListType> => {
 
 export const fetchRandomImageBreed = async (
   breedName: string
-): Promise<BreedImage> => {
+): Promise<IBreedImage> => {
   try {
     const response = await axios.get(
       `${API_URLS.DOGS_API_URL}breed/${breedName}/images/random`

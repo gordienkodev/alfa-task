@@ -1,6 +1,6 @@
-import { ErrorProps } from "../interfaces";
+import { IErrorProps } from "../interfaces";
 
-const ErrorComponent = ({ message }: ErrorProps) => {
+const ErrorComponent = ({ message }: IErrorProps) => {
   return <p>{message}</p>;
 };
 

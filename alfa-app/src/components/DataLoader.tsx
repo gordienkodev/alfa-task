@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useStore } from "../store/useStore";
-import { BreedImage, BreedListType } from "../interfaces";
+import { IBreedImage, IBreedListType } from "../interfaces";
 import { fetchDogBreeds, fetchRandomImageBreed } from "../utils/apiUtils";
 
 const DataLoader: React.FC = () => {
@@ -9,13 +9,13 @@ const DataLoader: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const data: BreedListType = await fetchDogBreeds();
+        const data: IBreedListType = await fetchDogBreeds();
         const firstBreeds: string[] = Object.keys(data).slice(0, 12);
 
         setBreeds(firstBreeds);
 
         const breedImageRequests = firstBreeds.map((breed) =>
-          fetchRandomImageBreed(breed).then((response: BreedImage) => ({
+          fetchRandomImageBreed(breed).then((response: IBreedImage) => ({
             breed,
             imageUrl: response.message,
           }))

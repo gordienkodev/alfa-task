@@ -1,7 +1,7 @@
 .breedCard {
   border: 1px solid #817c7c;
   border-radius: 8px;
-  padding: 6px 16px 40px 16px;
+  padding: 6px 16px 20px 16px;
   margin: 16px;
   text-align: center;
   position: relative;
@@ -14,12 +14,13 @@
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.beedTitle {
+.breedTitle {
   margin: 0;
 }
 
-.beedTitle::first-letter {
+.breedTitle::first-letter {
   text-transform: uppercase;
+  padding: 5px;
 }
 
 .breedImage {
@@ -30,11 +31,10 @@
 }
 
 .iconContainer {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
   display: flex;
-  gap: 10px;
+  gap: 20px;
+  justify-content: center;
+  padding: 5px;
 }
 
 .likeIcon {

@@ -1,10 +1,11 @@
 import { FaHeart, FaTrash } from "react-icons/fa";
-import styles from "./BreedCard.module.css";
-import { BreedCardProps } from "../../interfaces";
-import { useStore } from "../../store/useStore";
+import { IBreedCardProps } from "../../interfaces";
 import { Link } from "react-router-dom";
+import { CartButton } from "../CartButton/CartButton";
+import { useStore } from "../../store/useStore";
+import styles from "./BreedCard.module.css";
 
-const BreedCard: React.FC<BreedCardProps> = ({ breedName, imageUrl }) => {
+const BreedCard: React.FC<IBreedCardProps> = ({ breedName, imageUrl }) => {
   const { likedBreeds, toggleLike, removeBreed } = useStore();
   const isLiked = likedBreeds.has(breedName);
 
@@ -20,7 +21,7 @@ const BreedCard: React.FC<BreedCardProps> = ({ breedName, imageUrl }) => {
 
   return (
     <Link to={`/products/${breedName}`} className={styles.breedCard}>
-      <h2 className={styles.beedTitle}>{breedName}</h2>
+      <h2 className={styles.breedTitle}>{breedName}</h2>
       {imageUrl && (
         <img src={imageUrl} alt={breedName} className={styles.breedImage} />
       )}
@@ -29,12 +30,14 @@ const BreedCard: React.FC<BreedCardProps> = ({ breedName, imageUrl }) => {
           className={`${styles.likeIcon} ${isLiked ? styles.liked : ""}`}
           onClick={handleLike}
         >
-          <FaHeart />
+          <FaHeart size={28} />
         </div>
         <div className={styles.deleteIcon} onClick={handleDelete}>
-          <FaTrash />
+          <FaTrash size={28} />
         </div>
       </div>
+      
+      <CartButton breedName={breedName} />
     </Link>
   );
 };

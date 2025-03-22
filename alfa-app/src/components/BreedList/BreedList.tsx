@@ -1,12 +1,12 @@
-import { BreedListProps } from "../../interfaces";
+import { IBreedListProps } from "../../interfaces";
 import BreedCard from "../BreedCard/BreedCard";
-import styles from "./BreedList.module.css";
 import { useStore } from "../../store/useStore";
+import styles from "./BreedList.module.css";
 
-const BreedList: React.FC<BreedListProps> = ({
+const BreedList: React.FC<IBreedListProps> = ({
   breeds,
   images,
-}: BreedListProps) => {
+}: IBreedListProps) => {
   const { likedBreeds, filter } = useStore();
 
   const filteredBreeds =
