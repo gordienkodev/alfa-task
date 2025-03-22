@@ -5,6 +5,7 @@ Deploy: [https://gordienkodev.github.io/alfa-task/](https://gordienkodev.github.
 - breeds: [https://gordienkodev.github.io/alfa-task/products](https://gordienkodev.github.io/alfa-task/products)
 - one breed: [https://gordienkodev.github.io/alfa-task/products/african](https://gordienkodev.github.io/alfa-task/products/african)
 - add breed: [https://gordienkodev.github.io/alfa-task/create-product](https://gordienkodev.github.io/alfa-task/create-product)
+- cart: [https://gordienkodev.github.io/alfa-task/cart](https://gordienkodev.github.io/alfa-task/cart)
 
 ## Author
 
@@ -47,6 +48,7 @@ npm run dev
 ![image](https://github.com/user-attachments/assets/7d369a0e-ac3e-4e7b-8bc3-15afe2a9a19a)
 ![image](https://github.com/user-attachments/assets/a0476981-0ffc-4a74-ac1a-878c1500e73a)
 ![image](https://github.com/user-attachments/assets/9f9bcd76-c3c2-4a86-968f-ffd06f37af02)
+![image](https://github.com/user-attachments/assets/8dd1ce90-f2f0-4d05-b4a1-3779aa7d30ae)
 
 
 ## Task
