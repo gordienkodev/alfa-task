@@ -42,12 +42,12 @@
 
 .likeIcon {
   cursor: pointer;
-  color: gray;
+  color: #dddddd;
 }
 
 .likeIcon:hover {
   cursor: pointer;
-  color: rgb(163, 163, 163);
+  color: rgb(155, 102, 102);
 }
 
 .likeIcon.liked {
@@ -56,9 +56,9 @@
 
 .deleteIcon {
   cursor: pointer;
-  color: gray;
+  color: #dddddd;
 }
 
 .deleteIcon:hover {
-  color: black;
+  color: rgb(90, 168, 96);
 }
